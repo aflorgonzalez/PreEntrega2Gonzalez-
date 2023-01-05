@@ -1,0 +1,137 @@
+@font-face {
+    font-family:'open sans';
+    src: url();
+}
+
+.fondoGenerico {
+    background-color:rgb(255, 255, 255) ;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    background: whitesmoke; 
+
+    }
+    .contenedor{
+        padding: 60px ;
+        width: 500px;
+        max-width: 500px;
+        margin: auto;
+        overflow: hidden;
+    }
+   .titulo{
+    color:lightslategrey;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+   } 
+
+   /* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #bdc3c7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(211, 11%, 42%, 0.144), hsla(204, 8%, 76%, 0.445)) URL;
+
+    background: linear-gradient(to right, hsla(0, 0%, 76%, 0.192), hsla(204, 8%, 76%, 0.205))URL;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 150px;
+    margin: auto;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color:black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.textos-header h1{
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 50%;
+    background-color: burlywood;
+    grid-column: 1/4;
+    }
+
+.textos-header h2{
+font-size: 30px;
+font-weight: 300;
+color: #fff;
+    }   
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-Preguntas-Frecuentes{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+ .contenido-textos h3{
+    margin-bottom: 15px;
+ }
+ .contenido-textos h3 span{
+    background: darkturquoise;
+    color:black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba ;
+    margin-right: 5px;
+ }
+
+ .form-newletter{
+    width: 400px;
+    background-color:rgb(104, 116, 226);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+
+ }
+ .controls {
+    width: 100px;
+    background: white ;
+    padding: 10px; 
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    font-family: 'calibri';
+    font-size: 10px;
+ }
+
+@media screen and (max-width:900px) {
+    
+}
